@@ -1,2 +1,2 @@
-# Cookbook to install yum remi and remi-php55 repository
+# Cookbook to install yum remi and/or remi-php55 repository
 
