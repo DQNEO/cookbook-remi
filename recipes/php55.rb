@@ -1,3 +1,5 @@
+include_recipe "remi::base"
+
 # add remi-php55 repository
 yum_repository 'remi-php55' do
   description 'Les RPM de Remi PHP55 - Repository'

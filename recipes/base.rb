@@ -1,4 +1,6 @@
 # add remi repository
+include_recipe "yum-epel"
+
 yum_repository 'remi' do
   description 'Les RPM de Remi - Repository'
   mirrorlist 'http://rpms.famillecollet.com/enterprise/6/remi/mirror'
