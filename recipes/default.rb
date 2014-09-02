@@ -1,2 +1,1 @@
-include_recipe "remi::php"
-include_recipe "remi::php55"
+include_recipe "remi::base"
